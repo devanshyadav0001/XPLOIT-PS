@@ -1,0 +1,28 @@
+) WUT Showpiece - Team Tupolev
+) This program demonstrates complex arithmetic and loops
+
+) --- Phase 1: Print "Tupolev" ---
+(84 ^         ) T
+(33 % ^       ) u
+(5 # % ^      ) p
+@ ^           ) o
+(3 # % ^      ) l
+(7 # % ^      ) e
+(17 % ^       ) v
+
+) --- Phase 2: Print " - FIXED!" ---
+(32 ^ (45 ^ (32 ^ (70 ^ (73 ^ (88 ^ (69 ^ (68 ^ (33 ^
+
+) --- Phase 3: Newline ---
+(10 ^
+
+) --- Phase 4: A loop of stars ---
+(42 ^         ) Initial *
+(15           ) Counter
+&
+  $ ^         ) Print *
+  $ @         ) Decrement counter
+*
+
+) --- Final Cleanup ---
+(10 ^ ` `
